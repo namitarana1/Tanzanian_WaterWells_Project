@@ -7,7 +7,7 @@ If you choose a dataset from the curated list, inform your instructor which data
 
 ## Curated List of Datasets
 
-You may select any of the four datasets below - we provide brief descriptions of each. Follow the links to learn more about the dataset and business problems before making a final decision.
+You may select any of the datasets below - we provide brief descriptions of each. Follow the links to learn more about the dataset and business problems before making a final decision.
 
 **If you are feeling overwhelmed or behind, we recommend you choose dataset #1.**
 
