@@ -1,14 +1,14 @@
-![image](./images/gettyimages-1144544657-612x612.jpg)
+![image](./images/gettyimages-93065842-612x612.jpg)
 
 
 
 # DRIVEN DATA: The Tanzanian Water Crisis
 #### Author: Namita Rana
 # Overview
-Tanzania, as a developing country, struggles with providing clean water to its population of over 57,000,000. There are many water points already established in the country, but some are in need of repair while others have failed altogether. As a result, many people are suffering. In this project, the objective is to dive into this crisis, focusing on the analysis of water well functionality accross the country in order to assess the level of the crisis and explore some possible solutions towards improving the situation for millions of people.
+Tanzania, as a developing country, struggles with providing clean water to its population of over 57,000,000. There are many water points already established in the country, but some are in need of repair while others have failed altogether. As a result, many people are suffering. In this project, the objective is to dive into this crisis, focusing on the analysis of water well functionality across the country in order to assess the level of the crisis and explore some possible solutions towards improving the situation for millions of people.
 
 # Business Problem:
-Almost half the population of Tanzania is without basic access to safe water. Although there are many waterpoints already established in the country, a lot of them are in need of repair while others have failed altogether. It can assist the Tanzanian Ministry of Water on identifying pumps that are in need of repair and/or no longer functional.Understanding which pumps will fail and which will not may help improve maintenance operations and ensure that clean water is available to people residing in Tanzania. Note that this is a ternary classification problem by default, but can be engineered to be binary. Stakeholder: Ministry of Water and Irrigation,Goverment of Tanzania.
+Almost half the population of Tanzania is without basic access to safe water. Although there are many water-points already established in the country, a lot of them are in need of repair while others have failed altogether. It can assist the Tanzanian Ministry of Water on identifying pumps that are in need of repair and/or no longer functional.Understanding which pumps will fail and which will not may help improve maintenance operations and ensure that clean water is available to people residing in Tanzania. Note that this is a ternary classification problem by default, but can be engineered to be binary. Stakeholder: Ministry of Water and Irrigation, Goverment of Tanzania.
 ## Dataset
 The dataset provided on https://www.drivendata.org/ by Taarifa and the Tanzanian Ministry of Water.
 For this dataset, there are two subsections to the problem description:
@@ -76,7 +76,7 @@ Our target is multi-class with imbalance issue where we have a very few observat
 
 ![image](./images/images/status_spread.png)
 
-So for our model evaluation, we prioritized the Accuracy and precision.We also specifically focussed on minimizing the false positives which is model predicts non functional but is actually functional,which can inturn lead to wastage of resources.
+So for our model evaluation, we prioritized the Accuracy and precision.We also specifically focussed on minimizing the false positives which is model predicts non functional but is actually functional, which can in-turn lead to wastage of resources.
 Additionally weighted F1 score was considered for overall performance.
 
 # Class Imbalance
@@ -98,11 +98,11 @@ Hyperparameter tuning was GridSearchCV.
 Our simplest model,XGBoost came back with a confusion matrix that produced a 82% accuracy score and a 86% precision score. For our purposes, we were looking to maximize precision as we want to reduce the amount of False positives (predicting the pump as non- functional when it is functional).
 
 #### Future Work
-* In the near future important features identified through the models can be explored in order to narrow down recommednations towards specific action points.
+* In the near future important features identified through the models can be explored in order to narrow down recommendations towards specific action points.
 
 * Looking at features like quality of water, its quantity,  and other such features to assess their impact on well functionality to provide more specific location recommendations for water pump development.
 
-* Based on the model results and feature weights we recommend that the minister of water and irigation deploy resources to conduct additional due diligence on water sources where wells are being installed. In addition, there is strong evidence of lack of functionality for wells installed at higher levels. We suggest adding using government oversight to make sure wells are installed at lower levels where possible. Our final recommendation is to setup a new fund / organisation to review and repair older wells in cooperation with non-governmental organisations assisting with wells construction
+* Based on the model results and feature weights we recommend that the minister of water and irrigation deploy resources to conduct additional due diligence on water sources where wells are being installed. In addition, there is strong evidence of lack of functionality for wells installed at higher levels. We suggest adding using government oversight to make sure wells are installed at lower levels where possible. Our final recommendation is to setup a new fund / organization to review and repair older wells in cooperation with non-governmental organizations assisting with wells construction
 
 ## For More Information
 
