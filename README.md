@@ -74,7 +74,7 @@ Classification  was used in order to predict the status level of a pump. We trai
 
 Our target is multi-class with imbalance issue where we have a very few observations of water points that needs repair compared to the ones that are functioning. It was important to us to not miss the non functioning or need for repair cases, as it is directly related to the lives of people using that water points.
 
-![image](./images/images/status_spread.png)
+![image](https://github.com/namitarana1/dsc-phase-3-choosing-a-dataset/blob/main/images/status_spread.png)
 
 So for our model evaluation, we prioritized the Accuracy and precision.We also specifically focussed on minimizing the false positives which is model predicts non functional but is actually functional, which can in-turn lead to wastage of resources.
 Additionally weighted F1 score was considered for overall performance.
