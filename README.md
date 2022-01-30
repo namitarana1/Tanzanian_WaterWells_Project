@@ -106,7 +106,7 @@ Our simplest model,XGBoost came back with a confusion matrix that produced a 82%
 
 ## For More Information
 
-Please review my full analysis in ![my Jupyter Notebook](/Tanzanian_Well_Project.ipynb).
+Please review my full analysis in ![my Jupyter Notebook](https://github.com/namitarana1/Tanzanian_WaterWells_Project/blob/main/Notebook/Tanzanian_Well_Project.ipynb).
 
 For any additional questions,
 please contact:
