@@ -1,4 +1,4 @@
-![image](./images/gettyimages-93065842-612x612.jpg)
+![image](https://github.com/namitarana1/dsc-phase-3-choosing-a-dataset/blob/main/images/gettyimages-93065842-612x612.jpg)
 
 
 
